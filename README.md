@@ -1,7 +1,7 @@
 # FFmpeg Static Auto-Builds
 
-|-------------------------------|------------------------------------------------------------------------------------|
 | **Platform**                  | **Details**                                                                        |
+|-------------------------------|------------------------------------------------------------------------------------|
 | **Windows (x64)**             | - Supports Windows 7 and newer, with UCRT installed.                               |
 |                               | - Minimum guaranteed version: Windows 10 22H2.                                     |
 |                               | - No guarantees on versions older than Windows 10 22H2.                            |

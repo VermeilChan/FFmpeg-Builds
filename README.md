@@ -1,11 +1,12 @@
 # FFmpeg Static Auto-Builds
 
-Static Windows (x64) and Linux (x64) Builds of ffmpeg master and latest release branch.
-
-Windows builds are targetting Windows 7 and newer, provided UCRT is installed.
-The minimum supported version is Windows 10 22H2, no guarantees on anything older.
-
-Linux builds are targetting RHEL/CentOS 8 (glibc-2.28 + linux-4.18) and anything more recent.
+|-------------------------------|------------------------------------------------------------------------------------|
+| **Platform**                  | **Details**                                                                        |
+| **Windows (x64)**             | - Supports Windows 7 and newer, with UCRT installed.                               |
+|                               | - Minimum guaranteed version: Windows 10 22H2.                                     |
+|                               | - No guarantees on versions older than Windows 10 22H2.                            |
+| **Linux (x64)**               | - Compatible with RHEL/CentOS 8 (glibc-2.28 + linux-4.18) and newer distributions. |
+| **Build Types**               | - FFmpeg master and latest release branches.                                       |
 
 ## Auto-Builds
 
@@ -47,7 +48,6 @@ Available targets:
 
 Available variants:
 * `gpl` Includes all dependencies, even those that require full GPL instead of just LGPL.
-* `gpl-shared` Same as gpl, but comes with the libav* family of shared libs instead of pure static executables.
 
 All of those can be optionally combined with any combination of addins:
 * `2.8`/`4.4`/`5.0`/`5.1`/`6.0`/`6.1`/`7.0` to build from the respective release branch instead of master.
